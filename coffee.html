@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <section class="home">
+      <div class="home-isi">
+        <h1>
+          Start your day <br />
+          with fresh brew<br />
+          <span>Coffee</span>
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda a asperiores, quis, incidunt tempora voluptate, dolor ab atque</p>
+        <div class="home-submit">
+          <span>Input your email here..</span>
+          <button>Get Started</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="about-kiri">
+        <h3><span>About</span> Us</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio saepe, suscipit corrupti officia, quasi explicabo deleniti enim facilis animi nihil perspiciatis asperiores cupiditate sapiente accusamus officiis! Eius, soluta! Quia,
+          officia!
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, sequi. Maiores aliquam eum est quisquam! Velit id suscipit alias est.</p>
+      </div>
+      <div class="about-kanan">
+        <img src="img/foto1.jpg" alt="pour coffee" />
+      </div>
+      <div class="clear"></div>
+    </section>
+
+    <section class="menu">
+      <div class="card-menu">
+        <div class="atas">
+          <img src="img/foto2.png" alt="" />
+        </div>
+        <div class="bawah">
+          <h4>Judul Coffee</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium!</p>
+          <button>Order here!</button>
+        </div>
+      </div>
+
+      <div class="card-menu">
+        <div class="atas">
+          <img src="img/foto3.png" alt="" />
+        </div>
+        <div class="bawah">
+          <h4>Judul Coffee</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium!</p>
+          <button>Order here!</button>
+        </div>
+      </div>
+
+      <div class="card-menu">
+        <div class="atas">
+          <img src="img/foto4.png" alt="" />
+        </div>
+        <div class="bawah">
+          <h4>Judul Coffee</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, accusantium!</p>
+          <button>Order here!</button>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </section>
+
+    <section class="contact-us">
+      <h3 class="judul-contact"><span>Contact</span> Us</h3>
+      <form action="submit">
+        <label for="name" class="labelS">Name</label>
+        <input class="inputS" type="text" id="name" />
+
+        <label for="email" class="labelS">email</label>
+        <input type="email" class="inputS" id="email" />
+
+        <label for="message" class="labelS">Message</label>
+        <textarea id="message" cols="30" rows="10"></textarea>
+
+        <input type="checkbox" id="like" required />
+        <label for="like" class="like">do you like coffee?</label>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>

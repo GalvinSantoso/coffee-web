@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: black;
+}
+/* navbar */
+.nav-bar {
+  padding: 20px;
+}
+
+.nav-bar ul {
+  width: fit-content;
+  margin: auto;
+}
+
+.nav-bar ul li {
+  display: inline;
+  margin: 0 25px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav-bar ul li a:hover {
+  color: #865439;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+}
+
+/* home */
+
+.home {
+  width: 100%;
+  background-image: url(img/bg1.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: 0px -100px;
+}
+
+.home .home-isi {
+  width: 40%;
+  padding: 30px 50px;
+}
+
+.home .home-isi h1 {
+  font-size: 70px;
+  margin-bottom: 15px;
+}
+
+.home .home-isi p {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.home .home-isi .home-submit {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.home .home-isi .home-submit span {
+  font-weight: bold;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.home .home-isi .home-submit button {
+  padding: 10px 20px;
+  background-color: #865439;
+  border-radius: 15px;
+  font-weight: bold;
+  position: absolute;
+  right: 8px;
+  top: 6px;
+  border: none;
+}
+
+/* about */
+
+.about {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #423f3e;
+}
+
+.about .about-kiri {
+  width: 50%;
+  float: left;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.about .about-kiri h3 {
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.about .about-kiri h3 span {
+  color: #b85c38;
+}
+
+.about .about-kiri p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.about .about-kanan {
+  width: 50%;
+  float: left;
+}
+
+.about .about-kanan img {
+  width: 100%;
+  height: 400px;
+  opacity: 0.8;
+  object-fit: cover;
+}
+.clear {
+  clear: both;
+}
+
+/* Menu */
+.menu {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.card-menu {
+  width: 300px;
+  border-radius: 20px;
+  height: 420px;
+  padding: 20px;
+  background-color: #cdbba7;
+  float: left;
+  margin: 0 40px;
+}
+
+.card-menu .atas {
+  height: 250px;
+}
+
+.card-menu .atas img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-menu .bawah button {
+  background-color: #b85c38;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.card-menu .bawah h4 {
+  font-size: 20px;
+}
+
+.card-menu .bawah {
+  padding: 10px 0;
+  width: 100%;
+}
+
+/*contact-us */
+
+.contact-us {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.contact-us .judul-contact {
+  width: fit-content;
+  margin: auto;
+  font-size: 50px;
+}
+
+.contact-us .judul-contact span {
+  color: #b85c38;
+}
+
+.contact-us form {
+  width: 60%;
+  margin: auto;
+}
+
+.contact-us form .labelS {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.contact-us form .inputS {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+}
+
+.contact-us form .inputS:focus {
+  border-bottom: 1px solid #b85c38;
+}
+
+.contact-us .like {
+  font-weight: bold;
+}
+.contact-us textarea {
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.contact-us button {
+  display: block;
+  margin: 10px 0;
+  padding: 8px 40px;
+  background-color: #865439;
+  font-weight: 600;
+  border-radius: 5px;
+}
